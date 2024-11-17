@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contacts({name,number , handleDelete}) {
+export default function Contacts({name,number , handleDelete , filtered}) {
   return (
     <div className='bg-slate-200 rounded-sm px-5 py-2 w-full flex justify-between'>
       <div>
